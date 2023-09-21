@@ -7,6 +7,12 @@
  * Represents a discontinuous range of numbers.
  */
 declare class DiscontinuousRange {
+
+    /**
+     * Property representing the combined length of each represented range
+     */
+    readonly length: number;
+    
     /**
      * Creates a discontinuous range at rangeStart, and ending at
      * rangeEnd. If rangeEnd is not specified, a range containing
